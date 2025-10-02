@@ -65,10 +65,11 @@ ul {
 
 /* === HERO === */
 .hero {
-  background: url('images/hero.png') center / cover no-repeat;
+  background: url('images/hero.jpg') center / cover no-repeat;
   padding: 200px 0 150px;
   text-align: center;
 }
+
 
 .hero__title {
   font-size: 48px;
