@@ -121,6 +121,27 @@ background-image: url('images/bottom-pic.png');
   flex: 1;
   text-align: center;
 }
+/* Индивидуальные фоны для вкладок */
+.service-ad {
+  background-image: url('images/video-ad.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.service-music {
+  background-image: url('images/music-video.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.service-image {
+  background-image: url('images/image-ad.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
 
 /* === PORTFOLIO === */
 .portfolio {
