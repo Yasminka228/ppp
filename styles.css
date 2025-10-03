@@ -123,21 +123,21 @@ background-image: url('images/bottom-pic.png');
 }
 /* Индивидуальные фоны для вкладок */
 .service-ad {
-  background-image: url('images/video-ad.jng');
+  background-image: url('images/video-ad.jpg');
   background-size: cover;
   background-position: center;
   color: white;
 }
 
 .service-music {
-  background-image: url('images/music-video.jng');
+  background-image: url('images/music-video.jpg');
   background-size: cover;
   background-position: center;
   color: white;
 }
 
 .service-image {
-  background-image: url('images/image-ad.jng');
+  background-image: url('images/image-ad.jpg');
   background-size: cover;
   background-position: center;
   color: white;
