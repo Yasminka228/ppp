@@ -104,7 +104,7 @@ ul {
 /* === ABOUT === */
 .about {
   position: relative;
-  background: url('fon.png') center/cover no-repeat; /* путь к твоему файлу */
+  background: url(images'fon.png') center/cover no-repeat; /* путь к твоему файлу */
   color: #fff;
   text-align: center;
   padding: 120px 20px;
