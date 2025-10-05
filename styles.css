@@ -67,7 +67,7 @@ ul {
 .hero {
   position: relative;
   height: 100vh; /* на весь экран */
-  background: url('images/hero-bg.jpg') center/cover no-repeat; /* твоя картинка */
+  background: url('images/rt.jpg') center/cover no-repeat; /* твоя картинка */
   display: flex;
   align-items: center;
   justify-content: center;
