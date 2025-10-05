@@ -98,7 +98,12 @@ ul {
 
 /* === ABOUT === */
 .about {
-  padding: 80px 0;
+  position: relative;
+  background: url(fon.png) center/cover no-repeat; 
+  color: #fff;
+  text-align: center;
+  padding: 120px 20px;
+  overflow: hidden;
 }
 
 /* === SERVICES === */
