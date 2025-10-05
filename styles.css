@@ -74,6 +74,12 @@ ul {
   text-align: center;
   color: #fff;
 }
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6); /* затемнение, чтобы текст был читаем */
+}
 
 .hero__title {
   font-size: 48px;
