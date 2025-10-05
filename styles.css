@@ -105,25 +105,6 @@ ul {
   padding: 120px 20px;
   overflow: hidden;
 }
-.about::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.85); /* чёрный полупрозрачный слой */
-}
-
-.about__container {
-  position: relative; /* текст поверх затемнения */
-  z-index: 1;
-}
-
-.about__text {
-  max-width: 800px;
-  margin: 0 auto;
-  font-size: 18px;
-  line-height: 1.6;
-  opacity: 0.95;
-}
 
 /* === SERVICES === */
 .services {
