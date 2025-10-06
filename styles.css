@@ -179,16 +179,22 @@ border: 2px solid #888;
   padding: 100px 0;
   flex: 1;
   text-align: center;
-  border: 2px solid #888;
+  border: 2px solid rgba(255,255,255,0.6); /* рамка аккуратная */
   border-radius: 10px;
-  background: #111;
   color: #fff;
+  background-size: cover;
+  background-position: center;
 }
 
-/* === FOOTER === */
-.footer {
-  padding: 30px 0;
-  background: #111;
-  text-align: center;
-  margin-top: 40px;
+/* Индивидуальные картинки */
+.project-1 {
+  background-image: url('images/project1.jpg');
+}
+
+.project-2 {
+  background-image: url('images/project2.jpg');
+}
+
+.project-3 {
+  background-image: url('images/project3.jpg');
 }
