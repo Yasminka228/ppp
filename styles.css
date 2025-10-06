@@ -113,18 +113,6 @@ ul {
   color: white;
 }
 
-.about::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.6); /* затемнение */
-  z-index: 0;
-}
-
-.about__container {
-  position: relative;
-  z-index: 1; /* текст всегда выше фона */
-}
 
 
 /* === SERVICES === */
