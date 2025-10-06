@@ -26,7 +26,7 @@ ul {
   margin: 0 auto;
 }
 
-/* === HEADER === */
+
 .header {
   padding: 20px 0;
   background: rgba(0, 0, 0, 0.9);
@@ -76,7 +76,7 @@ ul {
   color: #fff;
 }
 
-/* === HERO === */
+
 .hero {
   position: relative;
   height: 100vh;
@@ -108,25 +108,25 @@ ul {
   color: #fff;
 }
 
-/* === CONTENT AFTER HERO === */
+
 .content {
   background: url('images/fon.png') center/cover no-repeat;
   background-attachment: fixed;
 }
 
-/* === SECTION TITLES === */
+
 .section-title {
   font-size: 32px;
   margin-bottom: 20px;
 }
 
-/* === ABOUT === */
+
 .about {
   padding: 60px 0;
   background: transparent;
 }
 
-/* === SERVICES === */
+
 .services {
   padding: 80px 0;
   background: transparent;
@@ -164,7 +164,7 @@ border: 2px solid #888;
   background-position: center;
 }
 
-/* === PORTFOLIO === */
+
 .portfolio {
   padding: 80px 0;
   background: transparent;
@@ -179,18 +179,17 @@ border: 2px solid #888;
   padding: 100px 0;
   flex: 1;
   text-align: center;
-  border: 2px solid rgba(255,255,255,0.6); /* рамка аккуратная */
+  border: 2px solid rgba(255,255,255,0.6); 
   border-radius: 10px;
   color: #fff;
   background-size: cover;
   background-position: center;
 }
 
-/* Индивидуальные картинки */
 .project-1 {
   background-image: url('images/project1.jpg');
   background-size: cover;
-  background-position: center 100%; /* чем меньше %, тем выше картинка */
+  background-position: center 100%;
 }
 
 .project-2 {
