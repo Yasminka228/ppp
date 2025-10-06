@@ -146,30 +146,31 @@ ul {
 
 .services__item {
   padding: 20px;
-  background: #111;
   flex: 1;
   text-align: center;
+  border: 2px solid #e63946; /* ✅ рамка вокруг */
+  border-radius: 10px;       /* чуть скруглим */
+  background-color: rgba(0,0,0,0.6); /* затемняющий слой под текст */
+  color: #fff;
 }
 
+/* Индивидуальные фоны для вкладок */
 .service-ad {
   background-image: url('images/video-ad.jpg');
   background-size: cover;
   background-position: center;
-  color: white;
 }
 
 .service-music {
   background-image: url('images/music-video.jpg');
   background-size: cover;
   background-position: center;
-  color: white;
 }
 
 .service-image {
   background-image: url('images/image-ad.jpg');
   background-size: cover;
   background-position: center;
-  color: white;
 }
 
 /* === PORTFOLIO === */
@@ -183,10 +184,13 @@ ul {
 }
 
 .portfolio__item {
-  background: #111;
   padding: 100px 0;
   flex: 1;
   text-align: center;
+  border: 2px solid #e63946; /* ✅ рамка */
+  border-radius: 10px;
+  background: #111;
+  color: #fff;
 }
 
 /* === FOOTER === */
