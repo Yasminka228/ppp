@@ -52,7 +52,6 @@ ul {
   color: #e63946;
 }
 
-/* === ICONS === */
 .nav__link i {
   margin-right: 6px;
   font-size: 18px;
@@ -81,7 +80,7 @@ ul {
 .hero {
   position: relative;
   height: 100vh;
-  background: #111; /* без фоновой картинки */
+  background: url('images/rt.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -109,6 +108,12 @@ ul {
   color: #fff;
 }
 
+/* === CONTENT AFTER HERO === */
+.content {
+  background: url('images/fon.png') center/cover no-repeat;
+  background-attachment: fixed;
+}
+
 /* === SECTION TITLES === */
 .section-title {
   font-size: 32px;
@@ -117,17 +122,14 @@ ul {
 
 /* === ABOUT === */
 .about {
-  position: relative;
-  background: #111;
-  color: white;
-  z-index: 1;
   padding: 60px 0;
+  background: transparent;
 }
 
 /* === SERVICES === */
 .services {
   padding: 80px 0;
-  background: #000; /* чёрный фон */
+  background: transparent;
 }
 
 .services__list {
@@ -144,7 +146,6 @@ ul {
   color: #fff;
 }
 
-/* Картинки внутри карточек услуг */
 .service-ad {
   background-image: url('images/video-ad.jpg');
   background-size: cover;
@@ -166,7 +167,7 @@ ul {
 /* === PORTFOLIO === */
 .portfolio {
   padding: 80px 0;
-  background: #000;
+  background: transparent;
 }
 
 .portfolio__list {
