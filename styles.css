@@ -29,12 +29,12 @@ ul {
 /* === HEADER === */
 .header {
   padding: 20px 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.9);
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 1000; /* ✅ фикс — всегда поверх всего */
+  z-index: 1000;
 }
 
 .header__container {
@@ -56,12 +56,12 @@ ul {
 .nav__link i {
   margin-right: 6px;
   font-size: 18px;
-  color: #fff;           /* ✅ иконки белые, чтобы были видны */
+  color: #fff;
   transition: color 0.3s;
 }
 
 .nav__link:hover i {
-  color: #e63946;        /* при наведении красные */
+  color: #e63946;
 }
 
 .nav__list {
@@ -74,13 +74,14 @@ ul {
   background: #e63946;
   border: none;
   cursor: pointer;
+  color: #fff;
 }
 
 /* === HERO === */
 .hero {
   position: relative;
-  height: 100vh; /* на весь экран */
-  background: url('images/rt.jpg') center/cover no-repeat; /* твоя картинка */
+  height: 100vh;
+  background: #111; /* без фоновой картинки */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -105,6 +106,7 @@ ul {
   padding: 12px 24px;
   background: #e63946;
   cursor: pointer;
+  color: #fff;
 }
 
 /* === SECTION TITLES === */
@@ -116,18 +118,16 @@ ul {
 /* === ABOUT === */
 .about {
   position: relative;
-  background: url('images/fon.png') center/cover no-repeat;
+  background: #111;
   color: white;
   z-index: 1;
+  padding: 60px 0;
 }
 
 /* === SERVICES === */
 .services {
   padding: 80px 0;
-  background-image: url('bottom-pic.png'); 
-  background-size: cover;       
-  background-position: center;  
-  background-repeat: no-repeat;
+  background: #000; /* чёрный фон */
 }
 
 .services__list {
@@ -139,13 +139,12 @@ ul {
   padding: 20px;
   flex: 1;
   text-align: center;
-  border: 2px solid #e63946; /* ✅ рамка вокруг */
+  border: 2px solid #e63946;
   border-radius: 10px;
-  background-color: rgba(0,0,0,0.6); /* затемняющий слой под текст */
   color: #fff;
 }
 
-/* Индивидуальные фоны для вкладок */
+/* Картинки внутри карточек услуг */
 .service-ad {
   background-image: url('images/video-ad.jpg');
   background-size: cover;
@@ -167,6 +166,7 @@ ul {
 /* === PORTFOLIO === */
 .portfolio {
   padding: 80px 0;
+  background: #000;
 }
 
 .portfolio__list {
@@ -178,7 +178,7 @@ ul {
   padding: 100px 0;
   flex: 1;
   text-align: center;
-  border: 2px solid #e63946; /* ✅ рамка */
+  border: 2px solid #e63946;
   border-radius: 10px;
   background: #111;
   color: #fff;
