@@ -34,6 +34,7 @@ ul {
   width: 100%;
   top: 0;
   left: 0;
+  z-index: 1000; /* ✅ фикс — всегда поверх всего */
 }
 
 .header__container {
@@ -51,30 +52,21 @@ ul {
   color: #e63946;
 }
 
-.nav__list {
-  display: flex;
-  gap: 20px;
-}
-
-.nav__link {
-  color: #fff; /* текст белый */
-  font-size: 16px;
+/* === ICONS === */
+.nav__link i {
+  margin-right: 6px;
+  font-size: 18px;
+  color: #fff;           /* ✅ иконки белые, чтобы были видны */
   transition: color 0.3s;
 }
 
-.nav__link i {
-  margin-right: 6px;      /* отступ справа от иконки */
-  font-size: 16px;        /* размер иконки */
-  color: #e63946;         /* иконки красные */
-  transition: color 0.3s; /* плавная анимация */
-}
-
-.nav__link:hover {
-  color: #e63946; /* текст красный при наведении */
-}
-
 .nav__link:hover i {
-  color: #fff; /* иконка белая при наведении */
+  color: #e63946;        /* при наведении красные */
+}
+
+.nav__list {
+  display: flex;
+  gap: 20px;
 }
 
 .header__cta {
@@ -82,14 +74,13 @@ ul {
   background: #e63946;
   border: none;
   cursor: pointer;
-  color: #fff;
 }
 
 /* === HERO === */
 .hero {
   position: relative;
-  height: 100vh; 
-  background: url('images/rt.jpg') center/cover no-repeat;
+  height: 100vh; /* на весь экран */
+  background: url('images/rt.jpg') center/cover no-repeat; /* твоя картинка */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -124,10 +115,10 @@ ul {
 
 /* === ABOUT === */
 .about {
-  background: url('images/fon.png') center/cover no-repeat;
   position: relative;
-  z-index: 1;
+  background: url('images/fon.png') center/cover no-repeat;
   color: white;
+  z-index: 1;
 }
 
 /* === SERVICES === */
@@ -149,7 +140,7 @@ ul {
   flex: 1;
   text-align: center;
   border: 2px solid #e63946; /* ✅ рамка вокруг */
-  border-radius: 10px;       /* чуть скруглим */
+  border-radius: 10px;
   background-color: rgba(0,0,0,0.6); /* затемняющий слой под текст */
   color: #fff;
 }
