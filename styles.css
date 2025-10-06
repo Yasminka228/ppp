@@ -141,7 +141,7 @@ ul {
   padding: 20px;
   flex: 1;
   text-align: center;
-  border: 2px solid #e63946;
+ border: 2px solid #888;
   border-radius: 10px;
   color: #fff;
 }
@@ -179,7 +179,7 @@ ul {
   padding: 100px 0;
   flex: 1;
   text-align: center;
-  border: 2px solid #e63946;
+  border: 2px solid #888;
   border-radius: 10px;
   background: #111;
   color: #fff;
