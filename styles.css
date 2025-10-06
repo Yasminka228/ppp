@@ -141,7 +141,7 @@ ul {
   padding: 20px;
   flex: 1;
   text-align: center;
- border: 2px solid #888;
+ border: 5px dashed yellow;
   border-radius: 10px;
   color: #fff;
 }
