@@ -199,3 +199,45 @@ border: 2px solid #888;
 .project-3 {
   background-image: url('images/project3.jpg');
 }
+/* --- Hero Animation --- */
+.hero__container {
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.hero__title,
+.hero__subtitle,
+.hero__button {
+  opacity: 0;
+  transform: translateY(30px);
+  animation-fill-mode: forwards;
+}
+
+.hero__title {
+  animation: fadeInUp 1s ease 0.3s;
+}
+
+.hero__subtitle {
+  animation: fadeInUp 1s ease 0.6s;
+}
+
+.hero__button {
+  animation: fadeInUp 1s ease 0.9s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero__button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
