@@ -77,7 +77,6 @@ ul {
 }
 
 
-/* --- Hero Section --- */
 .hero {
   position: relative;
   display: flex;
@@ -88,6 +87,7 @@ ul {
   background: url('images/rt.jpg') center/cover no-repeat;
   color: #fff;
   overflow: hidden;
+  z-index: 1;
 }
 
 .hero__container {
@@ -147,6 +147,12 @@ ul {
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
+
+/* --- Content Section --- */
+.content {
+  background: url('images/fon.png') center/cover no-repeat;
+  background-attachment: fixed;
+  z-index: 0;
 
 .button {
   display: inline-block;
