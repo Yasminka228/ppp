@@ -94,19 +94,18 @@ ul {
   max-width: 800px;
   padding: 0 20px;
   position: relative;
-  z-index: 10; /* текст поверх фона */
+  z-index: 10; 
 }
 
-/* Анимация появления */
+
 .hero__title,
 .hero__subtitle,
 .hero__button {
   opacity: 0;
   transform: translateY(30px);
-  animation-fill-mode: forwards; /* сохраняем финальное состояние */
+  animation-fill-mode: forwards; 
 }
 
-/* Задержка для последовательного появления */
 .hero__title {
   animation: fadeInUp 1s ease 0.3s forwards;
 }
@@ -119,7 +118,6 @@ ul {
   animation: fadeInUp 1s ease 0.9s forwards;
 }
 
-/* Ключевые кадры */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -131,7 +129,7 @@ ul {
   }
 }
 
-/* Кнопка */
+
 .hero__button {
   display: inline-block;
   padding: 15px 30px;
@@ -148,7 +146,7 @@ ul {
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
-/* --- Content Section --- */
+
 .content {
   background: url('images/fon.png') center/cover no-repeat;
   background-attachment: fixed;
@@ -253,13 +251,13 @@ border: 2px solid #888;
 .project-3 {
   background-image: url('images/project3.jpg');
 }
-/* --- Hero Animation --- */
+
 .hero__container {
   max-width: 800px;
   padding: 0 20px;
 
 
-/* --- Соцсети --- */
+
 .footer__social {
   margin-top: 15px;
 }
@@ -275,7 +273,7 @@ border: 2px solid #888;
   color: #e63946;
 }
 
-/* --- Секция Отзывы --- */
+
 .reviews {
   padding: 80px 0;
   background: #111;
