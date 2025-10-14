@@ -257,37 +257,7 @@ border: 2px solid #888;
 .hero__container {
   max-width: 800px;
   padding: 0 20px;
-  /* --- Выпадающее меню --- */
-.nav__item {
-  position: relative;
-}
 
-.dropdown {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: #111;
-  padding: 10px 0;
-  border-radius: 5px;
-  min-width: 150px;
-  z-index: 100;
-}
-
-.dropdown li a {
-  display: block;
-  padding: 8px 15px;
-  color: #fff;
-  transition: background 0.3s;
-}
-
-.dropdown li a:hover {
-  background: #e63946;
-}
-
-.nav__item:hover .dropdown {
-  display: block;
-}
 
 /* --- Соцсети --- */
 .footer__social {
