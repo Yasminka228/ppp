@@ -257,3 +257,82 @@ border: 2px solid #888;
 .hero__container {
   max-width: 800px;
   padding: 0 20px;
+  /* --- Выпадающее меню --- */
+.nav__item {
+  position: relative;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #111;
+  padding: 10px 0;
+  border-radius: 5px;
+  min-width: 150px;
+  z-index: 100;
+}
+
+.dropdown li a {
+  display: block;
+  padding: 8px 15px;
+  color: #fff;
+  transition: background 0.3s;
+}
+
+.dropdown li a:hover {
+  background: #e63946;
+}
+
+.nav__item:hover .dropdown {
+  display: block;
+}
+
+/* --- Соцсети --- */
+.footer__social {
+  margin-top: 15px;
+}
+
+.footer__social a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.footer__social a:hover {
+  color: #e63946;
+}
+
+/* --- Секция Отзывы --- */
+.reviews {
+  padding: 80px 0;
+  background: #111;
+  color: #fff;
+}
+
+.reviews__list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.review {
+  flex: 1;
+  min-width: 250px;
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.review p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.review span {
+  font-weight: bold;
+  color: #e63946;
+}
